@@ -40,6 +40,7 @@ function App() {
     setOrden([...orden, producto]);
   };
   const reiniciar = (e) => {
+    e.preventDefault();
     setCpu(false);
     setEntrada(false);
     setSalida(false);
